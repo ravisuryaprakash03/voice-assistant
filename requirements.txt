@@ -1,0 +1,6 @@
+SpeechRecognition>=3.10
+pyttsx3>=2.90
+sounddevice>=0.4
+# Microphone support: sounddevice (above) works on every Python version.
+# PyAudio is an optional alternative:  pip install pyaudio
+# (PyAudio has no Windows installer for Python 3.14, so sounddevice is used by default.)
